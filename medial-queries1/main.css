@@ -1,3 +1,59 @@
 body {
   background: blanchedalmond;
 }
+
+.container{
+  padding: 1em;
+}
+
+.a{
+  min-height: 300px;
+  background-color: blue;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.b{
+  min-height: 600px;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c{
+  min-height: 600px;
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 375px){
+
+  body{
+    background-color: black;
+  }
+  
+  .a{
+    min-height: 100px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em;
+  }
+
+  .b{
+    min-height: 1600px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .c{
+    min-height: 100px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1em;
+  }
+
+}
